@@ -4,9 +4,6 @@
 <img width="737" alt="cover_gke_medium" src="https://github.com/user-attachments/assets/66c13851-5894-4afe-8d2c-fcf488ce84ba">
 </p>
 
-This repository contains a full RAG application using AWS CDK as IaC, LlamaIndex framework, Qdrant as a vector database, and deployment on AWS using a FastAPI app and Dockerfile. 
-
-For detailed project descriptions, refer to this [Medium article](https://medium.com/@benitomartin/creating-a-rag-application-with-aws-cdk-as-iac-qdrant-and-llamaindex-9138fd6999ef).
 
 Main Steps
 
