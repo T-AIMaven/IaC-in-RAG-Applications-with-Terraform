@@ -71,7 +71,7 @@ class AwsCdkRagFargateStack(Stack):
             scale_out_cooldown=cdk.Duration.seconds(60)
         )
         
-        # Grant the task read and write access to the S3 bucket
+        #Grant the task read and write access to the S3 bucket
         document_bucket.grant_read_write(fargate_service.task_definition.task_role)
 
         # Output the load balancer DNS
