@@ -21,7 +21,6 @@ COLLECTION_NAME = os.getenv('QDRANT_COLLECTION_NAME', 'documents')
 AWS_ACCESS_KEY_ID = os.getenv('AWS_ACCESS_KEY_ID')
 AWS_SECRET_ACCESS_KEY = os.getenv('AWS_SECRET_ACCESS_KEY')
 BUCKET_NAME = os.getenv('DOCUMENT_BUCKET')
-S3_PREFIX = 'documents/'  # Subdirectory in S3 bucket where the documents are stored
 
 openai.api_key = OPENAI_API_KEY
 
